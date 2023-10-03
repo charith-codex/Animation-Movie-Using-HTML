@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
+    <title>Animation</title>
+    <style>
+        body{
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+    </style>
 </head>
-<body>
-    <h1>hello</h1>
+<body background="/images/bg.jpg">
+    <marquee scrollamount="16">
+        <img src="images/birds.gif" alt="birds" width="16%">
+    </marquee>
+<br><br><br><br><br><br><br><br>
+    <marquee direction="right" scrollamount="30">
+        <img src="/images/1.gif" alt="img1" width="25%">
+        <img src="/images/2.gif" alt="img1" width="22%">
+        <img src="/images/3.gif" alt="img1" width="16%">
+        <img src="/images/4.gif" alt="img1" width="32%">
+    </marquee>
+
 </body>
 </html>
